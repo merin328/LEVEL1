@@ -1,0 +1,93 @@
+<h2 class="text-center my-3">Doctors</h2>
+         <div style="border: 1px solid red ; background-color: rgb(165, 42, 110);">  
+        
+           <form>
+            <label for="Speciality">Select Speciality:</label>
+         <select name="Speciality" id="Speciality">
+             <option value="Emergency and Taruma">Emergency and Taruma</option>
+             <option value="Pediatric Endocrinology">Pediatric Endocrinology</option>
+             <option value="Pediatric Nephrology">Pediatric Nephrology</option>
+             <option value="Pediatric Pulmonology">Pediatric Pulmonology</option>
+             <option value="Pediatrics">Pediatrics</option>
+         </select>
+     </form>
+     </div>
+
+    
+        <!--Row with two equal columns-->
+
+        <!--Row with two columns divided in 1:2 ratio-->
+        <div style="border: 1px solid red ; background-color: rgb(241, 240, 245);">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content bg-alt">Dr.Mathangi Rajagopalan<br>MBBS,Dipolma-Obstetrics,<br>Gynaecology<br>21 Years Of Experience</div>
+            </div>
+            <div class="col-md-8">
+                <div class="demo-content ">Rs 600 OPD Consult Fee</div>
+            </div>
+            </div>
+        </div>
+        <div style="border: 1px solid red ; background-color: rgb(233, 230, 230);">
+        
+        <!--Row with two columns divided in 1:3 ratio-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content bg-alt">Dr.S Arun Kumar<br>MBBS,MD-Pediatrics,DNB-<br>Neonatology<br>18 years Of Experience</div>
+            </div>
+            <div class="col-md-8">
+                <div class="demo-content ">Rs 600 OPD Consult Fee</div>
+            </div>
+        </div>
+    
+
+    <!--Row with two columns divided in 1:4 ratio-->
+    <div style="border: 1px solid red ; background-color: rgb(245, 244, 247);">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="demo-content bg-alt">Dr.Shobana Rajendran<br>MBBS,DNB-Pediatrics,DNB-<br>Neonatology<br>18 years Of Experience</div>
+        </div>
+        <div class="col-md-8">
+            <div class="demo-content ">Rs 600 OPD Consult Fee</div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#form">
+      Select Doctor
+    </button>  
+  </div>
+  
+  <div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title" id="exampleModalLabel">Appointment</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="email1">Doctor's Name</label>
+              <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter Doctor's Name">
+            </div>
+            <div class="form-group">
+              <label for="password1">Speciality</label>
+              <input type="email" class="form-control" id="email" placeholder="Speciality">
+            </div>
+            <div class="form-group">
+              <label for="password1">Email <Address></Address></label>
+              <input type="email" class="form-control" id="email" placeholder="Mail Id">
+              <small id="emailHelp" class="form-text text-muted">Your appointment time will be confirmed soon.</small>
+            </div>
+          </div>
+          <div class="modal-footer border-top-0 d-flex justify-content-center">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr width="100px;" color="white"size="10">
